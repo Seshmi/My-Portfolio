@@ -12,6 +12,7 @@
   flex-direction: column;
   gap: 2rem;
 }
+
 .i-name {
   display: flex;
   flex-direction: column;
@@ -34,11 +35,11 @@
   margin-top: 10px;
 }
 .i-button {
-  width: 6rem;
+  width: 7rem;
   height: 2rem;
 }
 .i-icons {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   gap: 0rem;
 }
