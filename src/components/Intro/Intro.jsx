@@ -29,7 +29,7 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
-          <span>Sithum Ravishka</span>
+          <span>Seshmi Senadheera</span>
           <span>
           I am 3rd year Information Technology
           Undergraduate Student at SLIIT. I like to
@@ -45,13 +45,13 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/Sithum-Ravishka">
+          <a href="https://github.com/Seshmi">
             <img src={Github} alt="" />
           </a>
-          <a href="https://lk.linkedin.com/in/sithum-ravishka-753619211">
+          <a href="https://www.linkedin.com/in/seshmi-senadheera-208642208/">
             <img src={LinkedIn} alt="" />
           </a>
-          <a href="https://www.instagram.com/sithum_ravishka/">
+          <a href="https://www.instagram.com/_seshmi_98/">
             <img src={Instagram} alt="" />
           </a>
         </div>
