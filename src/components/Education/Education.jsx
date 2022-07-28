@@ -3,7 +3,8 @@ import "./Education.css";
 import EducationCard from "../EducationCard/EducationCard";
 import SLIIT from "../../img/SLIIT.png";
 import school from "../../img/school.png";
-import britishway from "../../img/britishway.png";
+import school1 from "../../img/school1.png";
+import IBSL from "../../img/bank.png"
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
@@ -36,6 +37,50 @@ const Education = () => {
           whileInView={{ left: "-13rem" }}
           transition={transition}
         >
+
+           <EducationCard
+            emoji={school1}
+            heading={"Bandarawatta Parakkrama Maha Vidyalaya"}
+            detail={"Primary Education"}
+            date={"2004 – 2008 | Gampaha"}
+          />
+        </motion.div>
+
+        {/* 2nd card */}
+        <motion.div
+          initial={{ left: "10rem", top: "10rem" }}
+          whileInView={{ left: "-10rem", top:"10rem"}}
+          transition={transition}
+        >
+
+           <EducationCard
+            emoji={school}
+            heading={"Yasodhara Devi Balika Maha Vidyalaya"}
+            detail={"Ordinary Level + Advanced Level"}
+            date={"2009 – 2017 | Gampaha"}
+          />
+        </motion.div>
+        {/* 3rd card */}
+        <motion.div
+          initial={{ top: "20rem", left: "10rem" }}
+          whileInView={{ left: "-7rem", top: "20rem"}}
+          transition={transition}
+        >
+         
+          <EducationCard
+            emoji={IBSL}
+            heading={"Institute of Bankers of Sri Lanka"}
+            detail={"Intermediate in Applied Banking & Finance (IABF)"}
+            date={"2018 – Present | Sri lanka"}
+          />
+        </motion.div>
+        {/* 4th card */}
+        <motion.div
+          initial={{ top: "30rem", left: "10rem" }}
+          whileInView={{ left: "-4rem", top: "30rem"}}
+          transition={transition}
+        >
+
           <EducationCard
             emoji={SLIIT}
             heading={"Sri Lanka Institute of Information Technology (SLIIT)"}
@@ -43,32 +88,7 @@ const Education = () => {
             date={"2019 – present | Malabe, Sri lanka"}
           />
         </motion.div>
-        {/* second card */}
-        <motion.div
-          initial={{ left: "10rem", top: "10rem" }}
-          whileInView={{ left: "-10rem", top:"10rem"}}
-          transition={transition}
-        >
-          <EducationCard
-            emoji={school}
-            heading={"Ananda Shasthralaya National School"}
-            detail={"Ordinary Level + Advanced Level"}
-            date={"2004 – 2017 | Matugama"}
-          />
-        </motion.div>
-        {/* 3rd */}
-        <motion.div
-          initial={{ top: "20rem", left: "10rem" }}
-          whileInView={{ left: "-7rem", top: "20rem"}}
-          transition={transition}
-        >
-          <EducationCard
-            emoji={britishway}
-            heading={"British Way English Academy"}
-            detail={"Diploma in English Language"}
-            date={"2017 – 2018 | Sri lanka"}
-          />
-        </motion.div>
+        
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
