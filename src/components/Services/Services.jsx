@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Sithum_Ravishka_Resume.pdf';
+import Resume from './Seshmi_Senadheera_Resume.pdf';
 
 const Services = () => {
   // context
@@ -47,7 +47,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Draw.io, Photoshop, Adobe xd, mockflow"}
+            detail={"Figma, Draw.io, Adobe xd, mockflow"}
           />
         </motion.div>
         {/* second card */}
@@ -71,7 +71,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Software"}
-            detail={"Eclipse, VSCode, Android Studio, MySQL Workbench, "}
+            detail={"Eclipse, VSCode, Android Studio, MySQL Workbench "}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
