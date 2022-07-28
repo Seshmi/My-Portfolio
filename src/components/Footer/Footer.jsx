@@ -14,23 +14,23 @@ const Footer = () => {
           <span>Contact Me</span>
           <span>Discuss a project or just want to say hi? </span>
             <span>My Inbox is open for all.</span>
-          <span>076-8367334</span>
-          <span>sithumravishka1@gmail.com</span>
+          <span>071-0967060</span>
+          <span>shsenadheera@gmail.com</span>
         </div>
         <div className="scoMeadia">
         <div className="f-icons">
-          <a href="https://www.instagram.com/sithum_ravishka/">
+          <a href="https://www.instagram.com/_seshmi_98/">
             <Insta color="#fb3958" size={"2.5rem"} />
           </a>
-          <a href="https://www.facebook.com/people/Sithum-Ravishka/100008639329023/">
+          <a href="https://www.facebook.com/seshmi.senadheera.1998/">
             <Facebook color="#4267B2" size={"2.5rem"} />
           </a>
-          <a href="https://github.com/Sithum-Ravishka">
+          <a href="https://github.com/Seshmi">
             <Gitub color="black" size={"2.5rem"} />
           </a>
         </div>
         <div className="f-creator">
-          <span >Copyright ©2021-2022, All Rights Reserved | Website is made with by <span>Sithum Ravishka</span></span>
+          <span >Copyright ©2021-2022, All Rights Reserved | Website is made with by <span>Seshmi Senadheera</span></span>
         </div>
         </div>
       </div>
