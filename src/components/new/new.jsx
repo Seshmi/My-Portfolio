@@ -33,3 +33,20 @@ const navbar = () => {
               <Link to="portfolio" spy={true} smooth={true}>
                 Portfolio
               </Link>
+              </li>
+            <li>
+              <Link to="testimonial" spy={true} smooth={true}>
+                
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <Link to="contact" spy={true} smooth={true}>
+        <button className="button n-button">Contact</button>
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default navbar;
