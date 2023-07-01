@@ -8,6 +8,10 @@
   /* scroll view */
   padding-top: 3rem;
 }
+.card-image {
+  width: 126px;
+  height: 127px;
+}
 /* left side */
 .awesome {
   display: flex;
