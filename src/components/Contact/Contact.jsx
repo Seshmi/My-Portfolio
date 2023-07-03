@@ -1,27 +1,29 @@
 import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 import { themeContext } from "../../Context";
+
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false)
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "",
-        "",
+        "service_j43hqag",
+        "template_s8b2qdr",
         form.current,
-        ""
+        "H4B6gP41owCLe1RLg"
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
-          form.reset();
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
