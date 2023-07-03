@@ -8,7 +8,6 @@ import Services from "./components/Services/Services";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
 function App() {
   const theme = useContext(themeContext);
@@ -25,11 +24,9 @@ function App() {
       <Intro />
       <Services/>
       <Experience />
-      <Works />
-      <Education/>
       <Portfolio />
+      <Education/>
       <Contact/>
-    
       <Footer/>
     </div>
   );
